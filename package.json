@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel --out-dir=lib src"
+    "build": "babel --out-dir=bin src",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "bin": {
+    "twil": "bin/index.js"
   },
   "keywords": [],
   "author": "",
