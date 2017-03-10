@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { default as program } from 'commander';
 import { readCredentials, createTwitterClient, tweet } from './utils';
 
