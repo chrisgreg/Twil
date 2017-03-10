@@ -2,7 +2,7 @@
 
 Super Simple Node CLI Twitter Client for OSX & Linux
 
-![alt text](http://i.imgur.com/kgfkUA6.gifv)
+![alt text](http://i.imgur.com/kgfkUA6.gif)
 
 
 ## Installation
